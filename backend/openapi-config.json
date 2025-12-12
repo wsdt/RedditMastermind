@@ -1,0 +1,16 @@
+{
+    "npmName": "@redditmastermind/api",
+    "supportsES6": true,
+    "withInterfaces": true,
+    "typescriptThreePlus": true,
+    "useSingleRequestParameter": true,
+    "useObjectParameters": true,
+    "enumPropertyNaming": "original",
+    "modelPropertyNaming": "original",
+    "useSingleEnumType": true,
+    "stringEnums": false,
+    "apiPackage": "api",
+    "modelPackage": "model",
+    "httpUserAgent": "RedditMastermind-API-Client",
+    "usePromises": true
+  }

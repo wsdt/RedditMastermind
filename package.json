@@ -1,0 +1,23 @@
+{
+  "name": "RedditMastermind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "openapi:generate": "npx @openapitools/openapi-generator-cli generate -i ./backend/swagger.json -g typescript-fetch -o ./frontend/src/api/gen/ -c ./backend/openapi-config.json && pnpm run format",
+    "format": "prettier --write \"**/*.ts\"",
+    "test": "cd backend && pnpm test && cd ../frontend && pnpm test",
+    "test:badges": "cd backend && pnpm test:badges && cd ../frontend && pnpm test:badges"
+  },
+  "keywords": [],
+  "author": "Kevin Riedl (wsdt)",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "husky": "^9.1.7"
+  }
+}

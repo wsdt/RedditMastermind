@@ -1,0 +1,27 @@
+# build output
+dist/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+/**/coverage/clover.xml
+/**/coverage/coverage-final.json
+/**/coverage/coverage-summary.json
+/**/coverage/lcov.info
+/**/coverage/lcov-report
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
