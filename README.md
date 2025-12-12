@@ -1,4 +1,4 @@
-# RedditMastermind [![Backend Tests](https://github.com/wsdt/RedditMastermind/actions/workflows/backend-tests.yml/badge.svg)](https://github.com/wsdt/RedditMastermind/actions/workflows/backend-tests.yml)
+# RedditMastermind [![Backend Tests](https://github.com/wsdt/RedditMastermind/actions/workflows/backend-tests.yml/badge.svg)](https://github.com/wsdt/RedditMastermind/actions/workflows/backend-tests.yml) [![Frontend Tests](https://github.com/wsdt/RedditMastermind/actions/workflows/frontend-tests.yml/badge.svg)](https://github.com/wsdt/RedditMastermind/actions/workflows/frontend-tests.yml)
 
 ## Get Started
 1. Add your OpenAI Api key in the backend/.env
